@@ -6,3 +6,5 @@ function getTemp() {
     return;
   else
     alert("It is currently" + temperature + "degrees °C outside right now!");
+  }
+}
