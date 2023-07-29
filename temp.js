@@ -1,7 +1,7 @@
 function getTemp() {
   let input = document.querySelector('#input');
   let temperature = input.value;
-  if temperature === '' {
+  if (temperature === '') {
     alert("Input is required.");
     return;
   else
