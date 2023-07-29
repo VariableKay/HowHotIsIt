@@ -5,5 +5,5 @@ function temp() {
     alert("Input is required.");
 		return;
   }
-  alert("It is currently" + temperature + "degrees °C outside right now!");
+  alert("It is currently " + temperature + " degrees °C outside right now!");
 }
