@@ -1,4 +1,4 @@
-function getTemp() {
+function temp() {
   let input = document.querySelector('#input');
   let temperature = input.value;
   if (temperature === '') {
