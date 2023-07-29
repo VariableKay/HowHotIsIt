@@ -3,7 +3,7 @@ function temp() {
   let temperature = input.value;
   if (temperature === '') {
     alert("Input is required.");
-  else
-    alert("It is currently" + temperature + "degrees °C outside right now!");
+		return;
   }
+  alert("It is currently" + temperature + "degrees °C outside right now!");
 }
